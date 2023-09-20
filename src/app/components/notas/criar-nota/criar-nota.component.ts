@@ -14,8 +14,8 @@ export class CriarNotaComponent {
     constructor(private notaService: NotaService,
                 private router: Router){
      this.nota = new Nota(
-        'Dog bath',
-        'Take the shampoo',
+        '',
+        '',
         'dark',
         0,
         );
